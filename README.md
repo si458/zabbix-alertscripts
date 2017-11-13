@@ -103,5 +103,5 @@ Specify the UserKey and AppToken in the *Send to* field, separated by a | .
 
 ![Configuration screen](https://raw.githubusercontent.com/sriccio/resources/master/images/zabbix-alertscripts/pushover_user_media.png)
 
-And voila, you're ready to use Pushbullet notifications!
+And voila, you're ready to use Pushover notifications!
 
