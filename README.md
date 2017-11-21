@@ -100,7 +100,7 @@ Specify the name of the script in script name and check that the parameters are 
 ### Configure the user media
 
 You will need then to add the media to your users. For this just edit an user and add a media selecting the one you just created before.
-Specify the UserKey and AppToken in the *Send to* field, separated by a | .
+Specify the UserKey only in the *Send to* field.
 
 ![Configuration screen](https://raw.githubusercontent.com/sriccio/resources/master/images/zabbix-alertscripts/pushover_user_media.png)
 
