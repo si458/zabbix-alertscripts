@@ -71,15 +71,16 @@ pip install python-pushover
 ```
 ### Usage
 ```
-usage: notify_pushover.py [-h] UserKey|AppToken Subject Message
+usage: notify_pushover.py [-h] AppToken UserKey Subject Message
 
 Send Zabbix notification to Pushover enabled devices.
 
 positional arguments:
-  UserKey|AppToken  Pushover User Key AND Application Token separated by |
-  Subject           Subject you want to push to the device(s).
-  Message           Message you want to push to the device(s).
-
+  AppToken    Pushover Application Token
+  UserKey     Pushover User Key
+  Subject     Subject you want to push to the device(s)
+  Message     Message you want to push to the device(s)
+  
 optional arguments:
   -h, --help        show this help message and exit
 ```
